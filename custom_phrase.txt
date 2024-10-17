@@ -113,4 +113,6 @@ Dax	dax	2
 Shirley	shi	3
 Sarah	sa	3
 Patrick	pat	3
-data model	dmo	1
+data model	dm	1
+masterGo	mas	1
+COPD	co	1
