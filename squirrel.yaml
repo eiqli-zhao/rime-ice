@@ -75,14 +75,15 @@ style:
   color_scheme: mac_light_new
   color_scheme_dark: mac_dark_new
 
-  # 以下是预设选项。如果皮肤没写，则使用这些属性；如果皮肤写了，使用皮肤的。
-
   # 候选框与文字的排列方式
   candidate_list_layout: stacked  # stacked | linear       皮肤横竖排显示是调整这个
-  text_orientation: horizontal    # horizontal | vertical  文字方向
+  # 预设选项。如果皮肤没写，则使用这些属性；如果皮肤写了，使用皮肤的。
+  text_orientation: horizontal  # horizontal | vertical
+
   # 拼音或词句是否显示在键入位置
   inline_preedit: true     # true | false  键入码显示位置
   inline_candidate: false  # true | false  选中词显示位置
+
 
   # Whether candidate panel stick to screen edge to reduce jumping
   memorize_size: true
@@ -93,34 +94,20 @@ style:
 
   corner_radius: 10
   hilited_corner_radius: 0
-  border_height: -2
-  border_width: -2
-  # Space between candidates in stacked layout
+  border_height: 2
+  border_width: 0
   line_spacing: 5
-  # Space between preedit and candidates in non-inline mode
-  spacing: 8
-  # A number greater than 0 renders shadow around high-lighted candidate
-  shadow_size: 0
-  # Controls non-hililighted candidate background size, relative to highlighted
-  # Nagetive means shrink, positive meas expand
-  #surrounding_extra_expansion: 0
-
-  # format using %@ and %c is deprecated since 1.0, Squirrel 1.0
-  # %@ is automatically expanded to "[candidate] [comment]"
-  # and %c is replaced by "[label]"
+  spacing: 10
+  # candidate_format: '%c. %@'
   candidate_format: '[label]. [candidate] [comment]'  # 候选项格式化
-
-  # adjust the base line of text
-  #base_offset: 0
-  font_face: 'PingFangSC-Regular'
-  font_point: 16
-  #label_font_face: 'Avenir'
-  #label_font_point: 12
-  #comment_font_face: 'Avenir'
-  #comment_font_point: 16
-
-
-
+  base_offset: 0
+  # font_face: 'Lucida Grande'
+  font_point: 21
+  # label_font_face: 'Lucida Grande'
+  label_font_point: 16
+  # comment_font_face: 'Lucida Grande'
+  comment_font_point: 16
+  shadow_size: 0
 
 # 皮肤列表
 preset_color_schemes:
@@ -133,7 +120,7 @@ preset_color_schemes:
     corner_radius: 8                             # 窗口圆角
     hilited_corner_radius: 8                     # 高亮圆角
     line_spacing: 10                             # 行间距(适用于竖排)
-    border_height: 0                             # 窗口上下高度，大于圆角半径才生效
+    border_height: 1                             # 窗口上下高度，大于圆角半径才生效
     border_width: 0                              # 窗口左右宽度，大于圆角半径才生效
     # font_face: "PingFangSC-Regular"                      # 候选词字体
     font_point: 16                              # 候选字大小
@@ -157,8 +144,8 @@ preset_color_schemes:
     corner_radius: 8                             # 窗口圆角
     hilited_corner_radius: 8                     # 高亮圆角
     line_spacing: 10                             # 行间距(适用于竖排)
-    border_height: 0                             # 窗口上下高度，大于圆角半径才生效
-    border_width: 1
+    border_height: 1                             # 窗口上下高度，大于圆角半径才生效
+    border_width: 0
     # font_face: "PingFangSC-Regular"                      # 候选词字体
     font_point: 16                               # 候选字大小
     label_font_point: 16                         # 候选编号大小
@@ -184,12 +171,11 @@ preset_color_schemes:
     label_font_point: 12
     comment_font_face: "Helvetica"  # 注字体及大小
     comment_font_point: 16
-    # candidate_list_layout: stacked        # 候选项排列方向 stacked(默认) | linear
-    # text_orientation: horizontal          # 文字排列方向 horizontal(默认) | vertical
-    inline_preedit: true                    # 键入码（拼音）是否显示在键入位置 true | false
-    inline_candidate: false                 # 候选项（词句）是否显示在键入位置 true | false
-    translucency: false                     # 磨砂： true | false
-    mutual_exclusive: false                 # 色不叠加： true | false
+    candidate_list_layout: linear           # 候选项排列方向 stacked(默认) | linear
+    text_orientation: horizontal            # 文字排列方向 horizontal(默认) | vertical
+    inline_preedit: true                    # 拼音位于： 候选框 false | 行内 true
+    translucency: false                     # 磨砂： false | true
+    mutual_exclusive: false                 # 色不叠加： false | true
     border_height: 0                        # 外边框 高
     border_width: 0                         # 外边框 宽
     corner_radius: 10                       # 外边框 圆角半径
