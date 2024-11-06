@@ -116,3 +116,4 @@ Patrick	pat	3
 data model	dm	1
 masterGo	mas	1
 COPD	co	1
+report center	rc	2
