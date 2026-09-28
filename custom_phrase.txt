@@ -62,3 +62,68 @@ gone	gone
 Go程	gocheng
 code	code
 SOHO	soho
+
+
+iOS	ios
+iPhone	i
+macOS	macos
+Mac	mac
+B站	bzhan
+HarmonyOS	hm
+T恤	txu
+U盘	upan
+up主	upzhu
+eiqli.zhao@cn.ey.com	eiqli
+370283199611264539	sfz	2
+eiqli.zhao@foxmail.com	fox
+15053205952@163.com	wy
+Eiqli Zhao	eiqli
+Eiqli	eiqli
+WebStorm	web
+UAT	uat
+eiqli.zhao	eiqli
+地下城与勇士	dnf
+穿越火线	cf
+eiqli.zhao@gmail.com	gm
+15053205952	tel
+Vue2	v
+Vue3	v
+React	rea
+temporary	tem
+bug	bug
+PC	pc
+BPM	bpm
+PowerBI	pow
+Kavin	kav
+Mindy	min
+Emilia	emi
+Cathy	cat
+Grack	gra
+Amber	amb
+Stone	sto
+Zero	zer
+Dax	dax
+data model	dm
+masterGo	mas
+flyback	fly
+node_modules	node
+nacos	nac
+# 爸的身份证
+370226196005274517	sfzb
+山东省青岛市市南区山东路6号乙(五四广场地铁站A2口步行180米)华润大厦B座34楼安永	gsdz
+山东省青岛市市北区重庆南路246号小水清沟花园12号楼一单元1602室	sqg
+山东省青岛市平度市明村镇前楼乡小召村114号莉翔超市	lj
+# 妈的身份证
+370226196209024560	sfzm
+# 招商银行
+6214835655507398	zsyh
+# 老婆的身份证
+370205199401218527	sfz	1
+QQ音乐	qq	1
+QQ	qq	2
+Okk	ok	1
+OK	ok	2
+OKOK	okok	1
+Okk	okk	1
+姓名:Eiqli,电话:15053205952,详细地址:山东省青岛市市北区重庆南路246号小水清沟花园12号楼一单元1602室	yjdz
+iconfont	icon	1
